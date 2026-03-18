@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تمكين المعرفة</title>
+    <meta name="description" content="مؤسسة استشارية متخصصة في الحوكمة والتخطيط الاستراتيجي وقياس الأثر للقطاعات الحكومية وغير الربحية والخاصة" />
+    <link rel="icon" href="images/logo.png" />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Amiri:ital@0;1&display=swap" rel="stylesheet" />
+    
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css?V=12" />
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260315_073750_51473149-4350-4920-ae24-c8214286f323.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay-bg"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+            <div class="loading-text">تمكين المعرفة</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="brand">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="شعار تمكين المعرفة" class="logo-image" />
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-name">تمكين المعرفة</span>
+                            <span class="brand-tagline">الشريك الاستراتيجي للتميز</span>
+                        </div>
+                    </div>
+
+                    <div class="nav-menu" id="nav-menu">
+                        <a href="#home" class="nav-link active" data-section="home">الرئيسية</a>
+                        <a href="#about" class="nav-link" data-section="about">من نحن</a>
+                        <a href="#services" class="nav-link" data-section="services">خدماتنا</a>
+                        <a href="#methodology" class="nav-link" data-section="methodology">المنهجية</a>
+                        <a href="#portfolio" class="nav-link" data-section="portfolio">أعمالنا</a>
+                        <a href="#contact" class="nav-link" data-section="contact">تواصل معنا</a>
+                    </div>
+
+                    <div class="nav-actions">
+                        <a href="https://wa.me/966569181272" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                            استشارة مجانية
+                        </a>
+                        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-grid">
+                <!-- Left Panel -->
+                <div class="hero-left">
+                    <div class="liquid-glass-strong hero-panel">
+                        <!-- Nav inside left panel -->
+                        <div class="hero-nav">
+                            <div class="hero-nav-left">
+                                <img src="images/logo.png" alt="شعار" class="hero-logo-small" />
+                                <span class="hero-brand-text">تمكين المعرفة</span>
+                            </div>
+                            <div class="hero-nav-right">
+                                <div class="liquid-glass pill-menu">
+                                    <i class="fas fa-bars"></i>
+                                    <span>القائمة</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hero Content -->
+                        <div class="hero-content-wrapper">
+                            <div class="hero-badge">
+                                <i class="fas fa-star"></i>
+                                الشريك الاستراتيجي الموثوق
+                            </div>
+                            
+                            <h1 class="hero-title">
+                                نحن لا نكتفي بنقل المعرفة،<br />
+                                بل <i class="serif">نُمكّنك</i> من اكتساب المهارة
+                            </h1>
+                            
+                            <p class="hero-description">
+                                نحن مكتب استشاري متخصص في تمكين المنظمات من تحقيق التميز المؤسسي
+                                والأثر المجتمعي المستدام من خلال حلول مبتكرة في الحوكمة والتخطيط
+                                الاستراتيجي وقياس الأثر.
+                            </p>
+                            
+                            <div class="hero-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>استشارات مبتكرة وحلول عملية تقيس النجاح</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>شراكات طويلة المدى ومخرجات ملموسة</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>تركيز على الحوكمة والتخطيط والاستدامة</span>
+                                </div>
+                            </div>
+                            
+                            <div class="hero-cta">
+                                <a href="#services" class="btn-liquid-strong">
+                                    <span>اكتشف خدماتنا</span>
+                                    <i class="fas fa-arrow-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel (desktop only) -->
+                <div class="hero-right hidden lg:block">
+                    <!-- Top Bar -->
+                    <div class="hero-right-top">
+                        <div class="liquid-glass social-pill">
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                        <div class="liquid-glass account-btn">
+                            <i class="fas fa-sparkles"></i>
+                            <span>حساب</span>
+                        </div>
+                    </div>
+
+                    <!-- Community Card -->
+                    <div class="liquid-glass community-card">
+                        <h3>انضم إلى نظامنا البيئي</h3>
+                        <p>تواصل مع خبراء واستفد من مواردنا المتخصصة</p>
+                    </div>
+
+                    <!-- Bottom Features -->
+                    <div class="liquid-glass features-container">
+                        <div class="features-row">
+                            <div class="liquid-glass feature-card-small">
+                                <i class="fas fa-chess-king"></i>
+                                <h4>البناء الاستراتيجي</h4>
+                            </div>
+                            <div class="liquid-glass feature-card-small">
+                                <i class="fas fa-cogs"></i>
+                                <h4>تطوير العمليات</h4>
+                            </div>
+                        </div>
+                        <div class="liquid-glass feature-card-wide">
+                            <div class="feature-wide-content">
+                                <img src="images/logo1.png" alt="صورة" class="feature-thumb" loading="lazy" />
+                                <div class="feature-text">
+                                    <h4>النمذجة المتقدمة للعمليات</h4>
+                                    <p>تصميم وتطوير نماذج عمل مبتكرة</p>
+                                </div>
+                                <div class="feature-plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">من نحن</div>
+                    <h2 class="section-title">تمكين المعرفة</h2>
+                    <p class="section-description">مكتب استشاري متخصص يقدم حلولاً متكاملة للقطاع غير الربحي والحكومي والخاص، نركز على الحوكمة والتخطيط الاستراتيجي والاستدامة وقياس الأثر.</p>
+                </div>
+                
+                <div class="about-cards">
+                    <div class="liquid-glass about-card">
+                        <div class="about-card-header">
+                            <div class="card-icon"><i class="fas fa-eye"></i></div>
+                            <h3>رؤيتنا</h3>
+                        </div>
+                        <p>أن نكون الشريك الاستراتيجي في تمكين المنظمات من تحقيق التميز المؤسسي والأثر المجتمعي المستدام.</p>
+                    </div>
+                    
+                    <div class="liquid-glass about-card">
+                        <div class="about-card-header">
+                            <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                            <h3>رسالتنا</h3>
+                        </div>
+                        <p>تمكين المنظمات من النمو المستدام عبر استشارات مبتكرة وحلول عملية تصنع الأثر وتقيس النجاح.</p>
+                    </div>
+                </div>
+
+                <div class="liquid-glass values-section">
+                    <h3 class="values-title">قيمنا</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <div class="value-icon"><i class="fas fa-star"></i></div>
+                            <h4>التميز</h4>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h4>المصداقية</h4>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon"><i class="fas fa-handshake"></i></div>
+                            <h4>الشراكة</h4>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon"><i class="fas fa-infinity"></i></div>
+                            <h4>استدامة الأثر</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> أرسل لنا رسالة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">خدماتنا</div>
+                    <h2 class="section-title">حلول متكاملة مصممة حول احتياجاتك</h2>
+                    <p class="section-description">نقدم مجموعة شاملة من الخدمات الاستشارية المتخصصة لتمكين منظمتك من تحقيق أهدافها الاستراتيجية</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="liquid-glass service-card" id="strategic" data-service="strategic">
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-chess-king"></i></div>
+                            <h3>البناء الاستراتيجي</h3>
+                        </div>
+                        <p>نساعد المنظمات على بناء توجه استراتيجي متكامل يترجم الرؤية إلى خطط عملية وهيكل منظم يضمن الكفاءة والتميز المؤسسي.</p>
+                        <button class="btn-read-more" data-service-key="strategic">قراءة المزيد</button>
+                    </div>
+                    
+                    <!-- Service Card 2 (Featured) -->
+                    <div class="liquid-glass service-card featured" id="operations" data-service="operations">
+                        <div class="service-badge">الأكثر طلباً</div>
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                            <h3>تطوير العمليات والإجراءات</h3>
+                        </div>
+                        <p>نحلل ونبسط عملياتكم التشغيلية لتحقيق كفاءة أعلى، وسرعة في الإنجاز، وجودة في المخرجات عبر أتمتة شاملة ومدروسة.</p>
+                        <button class="btn-read-more" data-service-key="operations">قراءة المزيد</button>
+                    </div>
+                    
+                    <!-- Service Card 3 -->
+                    <div class="liquid-glass service-card" id="governance" data-service="governance">
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
+                            <h3>السياسات والإدارة</h3>
+                        </div>
+                        <p>نبني معكم نظام حوكمة وإدارة فعّال يضمن العدالة والشفافية، وينظم العمل بسياسات ولوائح واضحة تعزز الأداء المؤسسي.</p>
+                        <button class="btn-read-more" data-service-key="governance">قراءة المزيد</button>
+                    </div>
+                    
+                    <!-- Service Card 4 -->
+                    <div class="liquid-glass service-card" id="projects" data-service="projects">
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3>إدارة البرامج والمشاريع</h3>
+                        </div>
+                        <p>نحوّل أفكاركم إلى مشاريع ناجحة من خلال التخطيط والتنفيذ والمتابعة الدقيقة لضمان تحقيق الأثر المطلوب في الوقت والميزانية المحددة.</p>
+                        <button class="btn-read-more" data-service-key="projects">قراءة المزيد</button>
+                    </div>
+                    
+                    <!-- Service Card 5 -->
+                    <div class="liquid-glass service-card" id="impact" data-service="impact">
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>قياس أثر البرامج والمشاريع</h3>
+                        </div>
+                        <p>نقيس الأثر الحقيقي لمبادراتكم عبر مؤشرات وتحليلات دقيقة تساعدكم على تحسين الأداء وتبرير الاستثمارات.</p>
+                        <button class="btn-read-more" data-service-key="impact">قراءة المزيد</button>
+                    </div>
+                    
+                    <!-- Service Card 6 -->
+                    <div class="liquid-glass service-card" id="training" data-service="training">
+                        <div class="service-header">
+                            <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h3>بناء خطط التدريب وتقييم المهارات</h3>
+                        </div>
+                        <p>نقيم مهارات فريقكم ونصمم خطط تدريب مخصصة لتطوير القدرات وتعزيز الكفاءة في المجالات الأكثر أهمية.</p>
+                        <button class="btn-read-more" data-service-key="training">قراءة المزيد</button>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> أرسل لنا رسالة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section id="methodology" class="section methodology">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">منهجيتنا</div>
+                    <h2 class="section-title">مسار واضح يبدأ بالتقييم وينتهي بأثر قابل للقياس</h2>
+                    <p class="section-description">نتبع منهجية علمية متطورة تضمن تحقيق أفضل النتائج لعملائنا</p>
+                </div>
+                
+                <div class="methodology-steps">
+                    <div class="liquid-glass step-item">
+                        <div class="step-header">
+                            <div class="step-icon"><i class="fas fa-search"></i></div>
+                            <h3>التقييم والتشخيص</h3>
+                        </div>
+                        <p>إجراء تقييم شامل لأداء المنظمة باستخدام نماذج عملية، ومراجعة السياسات والإجراءات لاكتشاف الفجوات وتحديد فرص التحسين.</p>
+                    </div>
+                    
+                    <div class="liquid-glass step-item">
+                        <div class="step-header">
+                            <div class="step-icon"><i class="fas fa-map"></i></div>
+                            <h3>التخطيط</h3>
+                        </div>
+                        <p>صياغة الأهداف والمخرجات ورسم خارطة طريق مدعومة بمؤشرات أداء واضحة وقابلة للقياس.</p>
+                    </div>
+                    
+                    <div class="liquid-glass step-item">
+                        <div class="step-header">
+                            <div class="step-icon"><i class="fas fa-rocket"></i></div>
+                            <h3>التنفيذ والمتابعة</h3>
+                        </div>
+                        <p>تنفيذ الخطط وتمكين الفرق ومتابعة التقدم بتقديم تقارير دورية.</p>
+                    </div>
+                    
+                    <div class="liquid-glass step-item">
+                        <div class="step-header">
+                            <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>قياس الأثر</h3>
+                        </div>
+                        <p>تطبيق مؤشرات قياس لضمان التطوير والتحسين المستمر.</p>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> أرسل لنا رسالة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectors Section -->
+        <section id="sectors" class="section sectors">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">القطاعات المستهدفة</div>
+                    <h2 class="section-title">نخدم جميع القطاعات بخبرة متخصصة</h2>
+                </div>
+                
+                <div class="sectors-grid">
+                    <div class="liquid-glass sector-card">
+                        <div class="sector-icon"><i class="fas fa-heart"></i></div>
+                        <h3>المنظمات غير الربحية</h3>
+                        <p>تعزيز الأثر المجتمعي وتطوير الاستدامة</p>
+                    </div>
+                    <div class="liquid-glass sector-card">
+                        <div class="sector-icon"><i class="fas fa-building"></i></div>
+                        <h3>القطاع الخاص</h3>
+                        <p>تحسين الأداء المؤسسي وزيادة الربحية</p>
+                    </div>
+                    <div class="liquid-glass sector-card">
+                        <div class="sector-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>المؤسسات التعليمية</h3>
+                        <p>تطوير النظم التعليمية وقياس الأثر التعليمي</p>
+                    </div>
+                    <div class="liquid-glass sector-card">
+                        <div class="sector-icon"><i class="fas fa-university"></i></div>
+                        <h3>الجهات الحكومية</h3>
+                        <p>تطوير الأداء الحكومي وتحسين الخدمات العامة</p>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> أرسل لنا رسالة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video" class="section video-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">فيديو تعريفي</div>
+                    <h2 class="section-title">تعرف على تمكين المعرفة عن قرب</h2>
+                    <p class="section-description">شاهد قصتنا وطريقتنا في تمكين المنظمات لتحقيق التميز المؤسسي</p>
+                </div>
+                
+                <div class="video-container">
+                    <div class="video-player">
+                        <div class="video-wrapper">
+                            <video id="intro-video" controls preload="metadata" poster="images/poster.png">
+                                <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260315_073750_51473149-4350-4920-ae24-c8214286f323.mp4" type="video/mp4" />
+                                <p>متصفحك لا يدعم تشغيل الفيديو. يمكنك <a href="videos/tamkeen.mp4">تحميل الفيديو</a> بدلاً من ذلك.</p>
+                            </video>
+                            <div class="video-overlay" id="video-overlay">
+                                <div class="overlay-content">
+                                    <div class="play-button" id="play-button">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                    <p>فيديو تعريفي قصير عن رحلتنا ونهجنا</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-cta">
+                        <p>هل ترغب في معرفة المزيد عن كيف يمكننا مساعدتك؟</p>
+                        <a href="#contact" class="btn-liquid-strong">
+                            <i class="fas fa-comment-alt"></i> تواصل معنا الآن
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">أعمالنا</div>
+                    <h2 class="section-title">نماذج من مشاريعنا الناجحة</h2>
+                    <p class="section-description">مجموعة مختارة من المشاريع التي نفذناها بنجاح لعملائنا</p>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>التخطيط الاستراتيجي لمؤسسة حكومية</h4>
+                                <p>تطوير خطة استراتيجية شاملة لمدة 5 سنوات</p>
+                                <div class="portfolio-tags">
+                                    <span>تخطيط استراتيجي</span><span>قطاع حكومي</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>نظام قياس الأثر لمنظمة خيرية</h4>
+                                <p>تصميم وتطبيق نظام متكامل لقياس الأثر المجتمعي</p>
+                                <div class="portfolio-tags">
+                                    <span>قياس الأثر</span><span>منظمات خيرية</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>تطوير العمليات لشركة تقنية</h4>
+                                <p>إعادة هندسة العمليات وتطبيق الأتمتة</p>
+                                <div class="portfolio-tags">
+                                    <span>تطوير العمليات</span><span>قطاع خاص</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>تطوير السياسات والحوكمة</h4>
+                                <p>بناء إطار حوكمة شامل للمؤسسات</p>
+                                <div class="portfolio-tags">
+                                    <span>حوكمة</span><span>سياسات</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>برنامج التدريب والتطوير</h4>
+                                <p>تطوير قدرات الموظفين وبناء الكفاءات</p>
+                                <div class="portfolio-tags">
+                                    <span>تدريب</span><span>تطوير</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>إدارة المشاريع الاستراتيجية</h4>
+                                <p>تنفيذ مشاريع تحويلية كبرى</p>
+                                <div class="portfolio-tags">
+                                    <span>إدارة مشاريع</span><span>استراتيجية</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> أرسل لنا رسالة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="section stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="liquid-glass stat-item">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">عميل راضٍ</div>
+                    </div>
+                    <div class="liquid-glass stat-item">
+                        <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                        <div class="stat-number" data-target="300">0</div>
+                        <div class="stat-label">مشروع مكتمل</div>
+                    </div>
+                    <div class="liquid-glass stat-item">
+                        <div class="stat-icon"><i class="fas fa-award"></i></div>
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">سنوات خبرة</div>
+                    </div>
+                    <div class="liquid-glass stat-item">
+                        <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-label">معدل النجاح %</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">تواصل معنا</div>
+                    <h2 class="section-title">ابدأ رحلتك نحو التميز المؤسسي</h2>
+                    <p class="section-description">نحن هنا لمساعدتك في تحقيق أهدافك الاستراتيجية</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-form-section">
+                        <div class="liquid-glass-strong contact-form-card">
+                            <h3>أرسل لنا رسالة</h3>
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group">
+                                    <label for="name">الاسم الثلاثي</label>
+                                    <input type="text" id="name" required />
+                                    <div class="error-message" id="error-name"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">البريد الإلكتروني</label>
+                                    <input type="email" id="email" required />
+                                    <div class="error-message" id="error-email"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">رقم الهاتف</label>
+                                    <input type="tel" id="phone" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="organization">اسم المنظمة</label>
+                                    <input type="text" id="organization" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">الخدمة المطلوبة</label>
+                                    <select id="service">
+                                        <option value="">اختر الخدمة</option>
+                                        <option value="strategic">البناء الاستراتيجي</option>
+                                        <option value="operations">تطوير العمليات</option>
+                                        <option value="governance">السياسات والحوكمة</option>
+                                        <option value="projects">إدارة المشاريع</option>
+                                        <option value="impact">قياس الأثر</option>
+                                        <option value="training">التدريب والتطوير</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">تفاصيل المشروع</label>
+                                    <textarea id="message" rows="4" placeholder="اكتب تفاصيل مشروعك أو استفسارك هنا..."></textarea>
+                                </div>
+                                <button type="submit" class="btn-liquid-strong" style="width: 100%;">
+                                    <i class="fab fa-whatsapp"></i> إرسال عبر واتساب
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-section">
+                        <div class="liquid-glass-strong contact-info-card">
+                            <h3>معلومات التواصل</h3>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="contact-details">
+                                    <h4>البريد الإلكتروني</h4>
+                                    <a href="mailto:tamkeenalmarefa@gmail.com">tamkeenalmarefa@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                                <div class="contact-details">
+                                    <h4>أرقام الهاتف</h4>
+                                    <a href="tel:+966569181272">1272 918 56 966+</a>
+                                    <a href="tel:+966126586578">6578 658 12 966+</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-details">
+                                    <h4>العنوان</h4>
+                                    <p>جدة — الهنداوية<br />المملكة العربية السعودية</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                                <div class="contact-details">
+                                    <h4>واتساب</h4>
+                                    <a href="https://wa.me/966569181272" target="_blank" rel="noopener noreferrer">تواصل عبر واتساب</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="quick-contact">
+                            <h4>تواصل سريع</h4>
+                            <p>للحصول على استشارة مجانية فورية</p>
+                            <a href="https://wa.me/966569181272" class="btn-liquid-strong" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-whatsapp"></i> محادثة واتساب
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="images/logo1.png" alt="شعار تمكين المعرفة" class="logo-image" loading="lazy" />
+                        <div class="brand-text">
+                            <span class="brand-name">تمكين المعرفة</span>
+                            <span class="brand-tagline">الشريك الاستراتيجي للتميز</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">نحن مكتب استشاري متخصص في تمكين المنظمات من تحقيق التميز المؤسسي والأثر المجتمعي المستدام.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>خدماتنا</h4>
+                    <ul class="footer-links">
+                        <li><a href="#strategic">البناء الاستراتيجي</a></li>
+                        <li><a href="#operations">تطوير العمليات والإجراءات</a></li>
+                        <li><a href="#governance">السياسات والإدارة</a></li>
+                        <li><a href="#projects">إدارة البرامج والمشاريع</a></li>
+                        <li><a href="#impact">قياس أثر البرامج والمشاريع</a></li>
+                        <li><a href="#training">بناء خطط التدريب وتقييم المهارات</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">عن الشركة</a></li>
+                        <li><a href="#methodology">منهجيتنا</a></li>
+                        <li><a href="#portfolio">أعمالنا</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:tamkeenalmarefa@gmail.com">tamkeenalmarefa@gmail.com</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+966569181272">1272 918 56 966+</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> جدة — الهنداوية</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year"></span> تمكين المعرفة — جميع الحقوق محفوظة</p>
+                </div>
+                <div class="footer-website">
+                    <a href="https://www.tamkeenalmarefa.sa" target="_blank" rel="noopener noreferrer">www.tamkeenalmarefa.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Service Modal -->
+    <div class="service-modal" id="service-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas" id="modal-service-icon"></i>
+                </div>
+                <h3 id="modal-service-title"></h3>
+            </div>
+            <div class="modal-body">
+                <div class="service-description">
+                    <h4>عن الخدمة</h4>
+                    <p id="modal-service-description"></p>
+                </div>
+                <div class="service-components">
+                    <h4>مكونات البرنامج</h4>
+                    <ul id="modal-service-components"></ul>
+                </div>
+                <div class="service-outputs">
+                    <h4>المخرجات</h4>
+                    <ul id="modal-service-outputs"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-liquid-strong" id="modal-request-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    اطلب الخدمة
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js?V=12"></script>
+</body>
+</html>
